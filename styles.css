@@ -6,8 +6,9 @@
 }
 
 main {
-    padding: 0 750px 120px 750px;
+    /* padding: 0 750px 120px 750px; */
     background-color: #1F2937;
+    padding-bottom: 120px;
 }
 
 .section-main {
@@ -16,7 +17,7 @@ main {
 
 header, .section-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* border: 2px solid red; */
 }
 
@@ -53,6 +54,7 @@ a {
     width: 520px;
     /* border: 2px solid red; */
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .button-signup {
@@ -100,14 +102,17 @@ h2 {
 
 .section-3 {
     background-color: #E5E7EB;
-    padding: 150px 800px 100px 800px; 
+    padding: 150px 150px 100px 150px; 
 }
 
 .section-3 h3 {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937
+    color: #1F2937;
+    text-align: left; 
+    /* padding-left: 150px; */
+    /* padding-right: 150px; */
 }
 
 .section-3 p {
@@ -115,5 +120,6 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     margin-top: 10px;
+    /* padding-right: 150px; */
 }
 
